@@ -131,7 +131,25 @@ header{
 }
 .messaga{
   padding: 15px 40px;
-  box-shadow: 0 7px #1a7940;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  -shadow: 0 7px #1a7940;
   background-color: #5dca88;
   cursor: pointer; 
 }
@@ -158,3 +176,122 @@ footer p{
   font-size: 12px;
   color: #b3aeb5;
 }
+
+/* ここから競艇 */
+.race-tbl{
+	overflow-x: auto;
+}
+.course-tbl,
+.race-tbl table{
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.race-tbl th,
+.race-tbl td{
+	padding: 5px;
+	border-right: 1px solid #546572;
+	border-bottom: 1px solid #546572;
+}
+.race-tbl th{
+	background: #546572;
+	color: #fff;
+}
+.box_formation th:first-child,
+.race-tbl tr:first-child th:first-child,
+.race-tbl td:first-child{
+	border-left: 1px solid #546572;
+}
+.race-tbl tr:not(:first-child) th{
+	font-size: 12px;
+	line-height: 1.2;
+	background: rgba(84, 101, 114, 0.1);
+	color: #546572;
+}
+.race-tbl td span{
+	display: block;
+}
+.race-tbl table:not([class="course-tbl"]) td:nth-child(2)~td{
+	font-size: 12px;
+}
+.sp-tbl>div{
+	display: none;
+}
+.openSpTbl{
+	display: inline-block;
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-weight: 600;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+}
+.ai-race table:not([class="course-tbl"]) .race-tbl td:nth-child(2)~td{
+	font-size: 14px;
+}
+.ai-race td a{
+	color: blue;
+	border-bottom: 1px solid;
+	font-weight: 600;
+}
+.class_a1{
+	color: #ab4747;
+	font-weight: 600;
+}
+.race-yosou li span{
+	display: inline-block;
+}
+.race-yosou{
+	border: 1px solid #546572;
+	margin-bottom: 20px;
+}
+.race-yosou li{
+	padding: 10px;
+}
+.race-yosou li:nth-child(even){
+	background: rgba(32, 34, 35, 0.1)
+}
+.race-yosou li p{
+	font-weight: 600;
+	font-size: 13px;
+	text-align: right;
+}
+.daily-site{
+	margin: 30px 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.race-tbl th {
+    background: #546572;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ここまで競艇 */
