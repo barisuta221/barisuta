@@ -163,6 +163,43 @@ footer p{
 
 
 /* ここから競艇 */
+button,
+input,
+optgroup,
+select,
+textarea{
+	margin: 0;
+	color: inherit;
+	font: inherit;
+}
+
+button{
+	overflow: visible;
+}
+
+button,
+select{
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"]{
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+button[disabled],
+html input[disabled]{
+	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner{
+	padding: 0;
+	border: 0;
+}
 
 [class^="bg_waku_"]{
 	padding: 0 5px;
