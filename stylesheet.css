@@ -163,6 +163,11 @@ footer p{
 
 
 /* ここから競艇 */
+.from{
+	width: 800px;
+	padding-left: 100px;
+}
+
 button,
 input,
 optgroup,
