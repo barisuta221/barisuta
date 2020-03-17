@@ -163,6 +163,24 @@ footer p{
 
 
 /* ここから競艇 */
+
+[class^="bg_waku_"]{
+	padding: 0 5px;
+	/*margin: 0 2px;*/
+	border: 1px solid #b9b9b9;
+	font-size: 12px;
+	-webkit-flex: 0 0 1.5em;
+	-moz-flex: 0 0 1.5em;
+	-ms-flex: 0 0 1.5em;
+	-o-flex: 0 0 1.5em;
+	flex: 0 0 1.5em;
+	text-align: center;
+	background: #ebebeb;
+}
+span[class^="bg_waku_"]{
+	display: inline-block;
+	font-weight: 600;
+}
 .bg_waku_2{
 	color: #fff;
 	background: #212121;
